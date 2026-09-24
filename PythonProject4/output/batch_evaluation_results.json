@@ -1,0 +1,324 @@
+{
+    "documents_evaluated": 5,
+    "entity_metrics": {
+        "true_positives": 22,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "relationship_metrics": {
+        "true_positives": 16,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "document_results": [
+        {
+            "document": "doc1",
+            "entity_metrics": {
+                "true_positives": 6,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "san francisco",
+                        "LOCATION"
+                    ],
+                    [
+                        "azure",
+                        "PRODUCT"
+                    ],
+                    [
+                        "github",
+                        "COMPANY"
+                    ],
+                    [
+                        "microsoft",
+                        "COMPANY"
+                    ],
+                    [
+                        "2018",
+                        "DATE"
+                    ],
+                    [
+                        "satya nadella",
+                        "PERSON"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            },
+            "relationship_metrics": {
+                "true_positives": 4,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "microsoft",
+                        "ACQUIRED",
+                        "github"
+                    ],
+                    [
+                        "github",
+                        "HEADQUARTERED_IN",
+                        "san francisco"
+                    ],
+                    [
+                        "satya nadella",
+                        "CEO_OF",
+                        "microsoft"
+                    ],
+                    [
+                        "microsoft",
+                        "DEVELOPED",
+                        "azure"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            }
+        },
+        {
+            "document": "doc2",
+            "entity_metrics": {
+                "true_positives": 4,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "android",
+                        "PRODUCT"
+                    ],
+                    [
+                        "google",
+                        "COMPANY"
+                    ],
+                    [
+                        "mountain view",
+                        "LOCATION"
+                    ],
+                    [
+                        "sundar pichai",
+                        "PERSON"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            },
+            "relationship_metrics": {
+                "true_positives": 3,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "sundar pichai",
+                        "CEO_OF",
+                        "google"
+                    ],
+                    [
+                        "google",
+                        "DEVELOPED",
+                        "android"
+                    ],
+                    [
+                        "google",
+                        "HEADQUARTERED_IN",
+                        "mountain view"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            }
+        },
+        {
+            "document": "doc3",
+            "entity_metrics": {
+                "true_positives": 4,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "tim cook",
+                        "PERSON"
+                    ],
+                    [
+                        "apple",
+                        "COMPANY"
+                    ],
+                    [
+                        "iphone",
+                        "PRODUCT"
+                    ],
+                    [
+                        "cupertino",
+                        "LOCATION"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            },
+            "relationship_metrics": {
+                "true_positives": 3,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "tim cook",
+                        "CEO_OF",
+                        "apple"
+                    ],
+                    [
+                        "apple",
+                        "DEVELOPED",
+                        "iphone"
+                    ],
+                    [
+                        "apple",
+                        "HEADQUARTERED_IN",
+                        "cupertino"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            }
+        },
+        {
+            "document": "doc4",
+            "entity_metrics": {
+                "true_positives": 4,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "mark zuckerberg",
+                        "PERSON"
+                    ],
+                    [
+                        "threads",
+                        "PRODUCT"
+                    ],
+                    [
+                        "menlo park",
+                        "LOCATION"
+                    ],
+                    [
+                        "meta",
+                        "COMPANY"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            },
+            "relationship_metrics": {
+                "true_positives": 3,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "meta",
+                        "HEADQUARTERED_IN",
+                        "menlo park"
+                    ],
+                    [
+                        "meta",
+                        "DEVELOPED",
+                        "threads"
+                    ],
+                    [
+                        "meta",
+                        "FOUNDED_BY",
+                        "mark zuckerberg"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            }
+        },
+        {
+            "document": "doc5",
+            "entity_metrics": {
+                "true_positives": 4,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "tesla",
+                        "COMPANY"
+                    ],
+                    [
+                        "elon musk",
+                        "PERSON"
+                    ],
+                    [
+                        "cybertruck",
+                        "PRODUCT"
+                    ],
+                    [
+                        "austin",
+                        "LOCATION"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            },
+            "relationship_metrics": {
+                "true_positives": 3,
+                "false_positives": 0,
+                "false_negatives": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "correct_items": [
+                    [
+                        "elon musk",
+                        "CEO_OF",
+                        "tesla"
+                    ],
+                    [
+                        "tesla",
+                        "DEVELOPED",
+                        "cybertruck"
+                    ],
+                    [
+                        "tesla",
+                        "HEADQUARTERED_IN",
+                        "austin"
+                    ]
+                ],
+                "wrong_predictions": [],
+                "missed_items": []
+            }
+        }
+    ]
+}

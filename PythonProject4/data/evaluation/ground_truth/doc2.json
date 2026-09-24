@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {"name": "Sundar Pichai", "type": "PERSON"},
+        {"name": "Google", "type": "COMPANY"},
+        {"name": "Android", "type": "PRODUCT"},
+        {"name": "Mountain View", "type": "LOCATION"}
+    ],
+    "relationships": [
+        {
+            "source": "Sundar Pichai",
+            "relation": "CEO_OF",
+            "target": "Google"
+        },
+        {
+            "source": "Google",
+            "relation": "DEVELOPED",
+            "target": "Android"
+        },
+        {
+            "source": "Google",
+            "relation": "HEADQUARTERED_IN",
+            "target": "Mountain View"
+        }
+    ]
+}

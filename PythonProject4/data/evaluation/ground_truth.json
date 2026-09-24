@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "name": "Satya Nadella",
+            "type": "PERSON"
+        },
+        {
+            "name": "Microsoft",
+            "type": "COMPANY"
+        },
+        {
+            "name": "GitHub",
+            "type": "COMPANY"
+        },
+        {
+            "name": "2018",
+            "type": "DATE"
+        },
+        {
+            "name": "San Francisco",
+            "type": "LOCATION"
+        },
+        {
+            "name": "Visual Studio Code",
+            "type": "PRODUCT"
+        },
+        {
+            "name": "Azure",
+            "type": "PRODUCT"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Satya Nadella",
+            "relation": "CEO_OF",
+            "target": "Microsoft"
+        },
+        {
+            "source": "Microsoft",
+            "relation": "ACQUIRED",
+            "target": "GitHub"
+        },
+        {
+            "source": "GitHub",
+            "relation": "HEADQUARTERED_IN",
+            "target": "San Francisco"
+        },
+        {
+            "source": "Microsoft",
+            "relation": "DEVELOPED",
+            "target": "Visual Studio Code"
+        },
+        {
+            "source": "Microsoft",
+            "relation": "DEVELOPED",
+            "target": "Azure"
+        }
+    ]
+}

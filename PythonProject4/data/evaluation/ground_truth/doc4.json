@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {"name": "Mark Zuckerberg", "type": "PERSON"},
+        {"name": "Meta", "type": "COMPANY"},
+        {"name": "Threads", "type": "PRODUCT"},
+        {"name": "Menlo Park", "type": "LOCATION"}
+    ],
+    "relationships": [
+        {
+            "source": "Meta",
+            "relation": "FOUNDED_BY",
+            "target": "Mark Zuckerberg"
+        },
+        {
+            "source": "Meta",
+            "relation": "DEVELOPED",
+            "target": "Threads"
+        },
+        {
+            "source": "Meta",
+            "relation": "HEADQUARTERED_IN",
+            "target": "Menlo Park"
+        }
+    ]
+}

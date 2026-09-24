@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {"name": "Elon Musk", "type": "PERSON"},
+        {"name": "Tesla", "type": "COMPANY"},
+        {"name": "Austin", "type": "LOCATION"},
+        {"name": "Cybertruck", "type": "PRODUCT"}
+    ],
+    "relationships": [
+        {
+            "source": "Elon Musk",
+            "relation": "CEO_OF",
+            "target": "Tesla"
+        },
+        {
+            "source": "Tesla",
+            "relation": "HEADQUARTERED_IN",
+            "target": "Austin"
+        },
+        {
+            "source": "Tesla",
+            "relation": "DEVELOPED",
+            "target": "Cybertruck"
+        }
+    ]
+}

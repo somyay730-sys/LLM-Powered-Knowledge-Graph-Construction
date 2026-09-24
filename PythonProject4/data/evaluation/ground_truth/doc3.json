@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {"name": "Tim Cook", "type": "PERSON"},
+        {"name": "Apple", "type": "COMPANY"},
+        {"name": "iPhone", "type": "PRODUCT"},
+        {"name": "Cupertino", "type": "LOCATION"}
+    ],
+    "relationships": [
+        {
+            "source": "Tim Cook",
+            "relation": "CEO_OF",
+            "target": "Apple"
+        },
+        {
+            "source": "Apple",
+            "relation": "DEVELOPED",
+            "target": "iPhone"
+        },
+        {
+            "source": "Apple",
+            "relation": "HEADQUARTERED_IN",
+            "target": "Cupertino"
+        }
+    ]
+}
